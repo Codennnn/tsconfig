@@ -1,7 +1,7 @@
 {
   "name": "@codennnn/tsconfig",
   "version": "1.0.0",
-  "description": "Shared TypeScript config for my projects",
+  "description": "Shared TypeScript config for my projects.",
   "keywords": [
     "tsconfig",
     "typescript",

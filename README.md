@@ -1,6 +1,6 @@
 # tsconfig
 
-> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects
+> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects.
 
 ## Install
 
@@ -12,7 +12,7 @@ _This config requires TypeScript 4.7 or later._
 
 ## Usage
 
-Edit `tsconfig.json`.
+Add to your `tsconfig.json`:
 
 ```json
 {
@@ -34,3 +34,5 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
   }
 }
 ```
+
+You can find the [code here](https://github.com/Codennnn/tsconfig/blob/main/tsconfig.json).
