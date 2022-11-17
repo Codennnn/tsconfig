@@ -35,4 +35,4 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
 }
 ```
 
-You can find the [code here](https://github.com/Codennnn/tsconfig/blob/main/tsconfig.json).
+You can find the [code here](./tsconfig.json).
