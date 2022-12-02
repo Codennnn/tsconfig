@@ -1,7 +1,9 @@
 {
   "name": "@codennnn/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared TypeScript config for my projects.",
+  "license": "UNLICENCED",
+  "author": "LeoKu <czc12580520@gmail.com> (https://leoku.top)",
   "keywords": [
     "tsconfig",
     "typescript",
@@ -9,16 +11,17 @@
     "config",
     "configuration"
   ],
+  "files": [
+    "next.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Codennnn/tsconfig.git"
   },
-  "license": "UNLICENCED",
-  "author": "LeoKu <czc12580520@gmail.com> (https://leoku.top)",
-  "files": [
-    "tsconfig.json"
-  ],
   "engines": {
     "node": ">=14.x"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
