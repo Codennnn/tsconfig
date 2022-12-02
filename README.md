@@ -1,6 +1,6 @@
 # tsconfig
 
-> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects.
+> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for projects.
 
 ## Install
 
@@ -8,20 +8,17 @@
 npm install --save-dev @codennnn/tsconfig
 ```
 
-_This config requires TypeScript 4.7 or later._
-
 ## Usage
 
-Add to your `tsconfig.json`:
+For example, if you are using **Next.js** project, edit your `tsconfig.json` like this:
 
 ```json
 {
-  "extends": "@codennnn/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist"
-  }
+  "extends": "@codennnn/tsconfig/next.json"
 }
 ```
+
+_This config above requires TypeScript 4.7 or later. You can find the [code here](./next.json)._
 
 When you are targeting a higher version of Node.js, check the relevant ECMAScript version and add it as `target`:
 
@@ -34,5 +31,3 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
   }
 }
 ```
-
-You can find the [code here](./tsconfig.json).
