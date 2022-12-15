@@ -4,16 +4,17 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "NodeNext",
-    "importHelpers": true,
-    "noImplicitAny": true,
     "jsx": "react-jsx",
+    "strict": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "paths": {
       "@@/*": ["src/.umi/*"]
-    },
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    }
   }
 }
