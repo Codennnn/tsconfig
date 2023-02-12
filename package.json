@@ -1,6 +1,6 @@
 {
   "name": "@codennnn/tsconfig",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shared TypeScript config for my projects.",
   "license": "UNLICENCED",
   "author": "LeoKu <czc12580520@gmail.com> (https://leoku.top)",
@@ -12,7 +12,9 @@
     "configuration"
   ],
   "files": [
-    "next.json"
+    "next.json",
+    "umi.json",
+    "esm.json"
   ],
   "repository": {
     "type": "git",
