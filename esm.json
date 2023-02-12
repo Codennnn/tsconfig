@@ -1,11 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Umi.js",
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "jsx": "react-jsx",
     "strict": true,
     "noImplicitAny": true,
     "importHelpers": true,
@@ -13,9 +11,6 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "@@/*": ["src/.umi/*"]
-    }
+    "forceConsistentCasingInFileNames": true
   }
 }
