@@ -31,3 +31,9 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
   }
 }
 ```
+
+## Alternatives
+
+- [sindresorhus/tsconfig](https://github.com/sindresorhus/tsconfig)
+- [voxpelli/tsconfig](https://github.com/voxpelli/tsconfig)
+- [tsconfig/bases](https://github.com/tsconfig/bases)
